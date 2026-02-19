@@ -1,0 +1,29 @@
+{
+  "user_credentials": {
+    "username/email": "YOUR_MOSDAC_USERNAME",
+    "password": "YOUR_MOSDAC_PASSWORD"
+  },
+
+  "search_parameters": {
+    "datasetId": "3RIMG_L1B_STD",
+    "startTime": "",
+    "endTime": "",
+    "count": "",
+    "boundingBox": "",
+    "gId": ""
+  },
+
+  "download_settings": {
+    "download_path": "./MOSDAC_Downloads",
+    "organize_by_date": true,
+    "skip_user_input": true,
+    "generate_error_logs": false,
+    "error_logs_dir": ""
+  },
+
+  "bands_to_download": [
+    "IMG_TIR1",
+    "IMG_TIR2",
+    "IMG_WV"
+  ]
+}
