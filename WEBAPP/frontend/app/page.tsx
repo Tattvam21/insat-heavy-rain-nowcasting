@@ -12,7 +12,7 @@ interface PredictionResult {
   inputImages: string[]
 }
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'https://insat-heavy-rain-nowcasting.onrender.com/'
+const API_BASE_URL = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'https://insat-heavy-rain-nowcasting.onrender.com'
 
 function normalizeResult(payload: unknown): PredictionResult {
   const data = payload as Record<string, unknown>
